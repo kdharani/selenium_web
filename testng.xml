@@ -1,0 +1,105 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuite" verbose="1" parallel="false"
+	thread-count="1">
+	<listeners>
+		<listener class-name="com.appsfreedom.utils.RetryListener"></listener>
+		<listener class-name="com.appsfreedom.utils.Listener"></listener>
+	</listeners>
+	<test name="FM Test Cases" preserve-order="true">
+		<classes>
+			<!--<class name="com.appsfreedom.tests.OrganizationTest">
+				<methods>
+					<include name="updateOrgInfoTest" />
+					<include name="updateOrgAddressTest" />
+					<include name="addOrgContactTest" />
+					<include name="editOrgContactTest" />
+					<include name="changePrimaryContactTest" />
+					<include name="deleteOrgContactTest" />
+					<include name="checkTenantRestrictions" />
+				</methods>
+			</class>
+			 <class name="com.appsfreedom.tests.DBDesignerTest">
+				<methods>
+					<include name="createTableTest" />
+					<include name="alterTableTest" />
+					<include name="executeQueryTest" />
+					<include name="exportTableTest" />
+					<include name="deleteTableTest" />
+				</methods>
+			</class>
+			<class name="com.appsfreedom.tests.PlatformRoleTest">
+				<methods>
+					<include name="createPlatformRoleTest" />
+					<include name="editPlatformRoleTest" />
+					<include name="checkAssignedUsersToRoleTest" />
+					<include name="platformRoleAssignedGroupsTest" />
+					<include name="platformRoleAssignedAccessTest" />
+				</methods>
+			</class>
+			<class name="com.appsfreedom.tests.PlatformUserTest">
+				<methods>
+					<include name="createPuserTest" />
+					<include name="copyPuserTest" />
+					<include name="lockPuserTest" />
+					<include name="unlockPuserTest" />
+					<include name="changePuserPwdTest" />
+					<include name="editPuserGeneralInfoTest" />
+					<include name="assignRoleToPuserTest" />
+					<include name="removeRoleFrmPuserTest" />
+					<include name="addAppsToPuserTest" />
+					<include name="removeAppsFrmPuserTest" />
+					<include name="addUserMappingToPuserTest" />
+					<include name="removeUserMappingFrmPuserTest" />
+				</methods>
+			</class>
+			<class name="com.appsfreedom.tests.BusinessGroupTest">
+				<methods>
+					<include name="checkAdminGrpIsNotEditableTest" />
+					<include name="createBGroupTest" />
+					<include name="editBGroupInfoTest" />
+					<include name="assignRoleToBGroupTest" />
+					<include name="removeRoleFrmBGroupTest" />
+					<include name="assignUserToBGroupTest" />
+					<include name="removeUserFrmBGroupTest" />
+					<include name="assignAppToBGroupTest" />
+					<include name="removeAppFrmBGroupTest" />
+					<include name="deleteBGroupTest" />
+				</methods>
+			</class>
+			<class name="com.appsfreedom.tests.ConnectionManagerTest">
+				<methods>
+					<include name="createPluginTest" />
+					<include name="updatePluginTest" />
+					<include name="createConnectionsTest" />
+				</methods>
+			</class> -->
+			<class name ="com.appsfreedom.tests.SubscriptionTest">
+				<methods>
+					<include name ="createPackageTest"/>
+					<include name="deleteSubscriptionTest"/>
+					<include name ="editSubscriptionTest"/>
+					<include name="createDuplicateSubscription"/>
+					<include name="deleteUsedSubscription"/>
+				</methods>
+			</class>
+			<class name="com.appsfreedom.tests.TenantAdminTest">
+				<methods>
+					<include name="proxyLoginTest"/>
+					<include name="editSubscriptionTest"/>
+					<include name="editLicenceTestULU"/>
+					<include name="editLicenceTestLUL"/>
+				</methods>
+			</class>
+			<class name="com.appsfreedom.tests.ProjectTransportTest">
+				<methods>
+					<include name="includeInactiveProjects"/>
+					<include name="assignProjectToGroup"/>
+					<include name="assignProjectToUser"/>
+					<include name="exportDBSchema"/>
+					<include name="importDBSchema"/>
+					<include name="importTableData"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

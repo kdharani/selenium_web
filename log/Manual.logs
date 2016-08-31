@@ -1,0 +1,17 @@
+14/07/2016 17:56:16 devpinoyLogger Test starts from 95
+14/07/2016 17:56:16 devpinoyLogger Total rows ->1
+14/07/2016 17:56:16 devpinoyLogger Total cols -> 8
+14/07/2016 17:56:41 devpinoyLogger Login page loaded
+14/07/2016 17:56:41 devpinoyLogger UserId entered
+14/07/2016 17:56:41 devpinoyLogger Password entered
+14/07/2016 17:56:41 devpinoyLogger Tenant Id entered
+14/07/2016 17:56:42 devpinoyLogger Environment selected
+14/07/2016 17:56:53 devpinoyLogger SignIn button clicked
+14/07/2016 17:57:04 devpinoyLogger Switched to iframe
+14/07/2016 17:57:04 devpinoyLogger Login successful
+14/07/2016 17:57:04 devpinoyLogger Test starts from 95
+14/07/2016 17:57:04 devpinoyLogger Total rows ->1
+14/07/2016 17:57:04 devpinoyLogger Total cols -> 8
+14/07/2016 17:57:07 devpinoyLogger Opened Configurator
+14/07/2016 17:57:08 devpinoyLogger Subscription page loaded
+14/07/2016 17:57:15 devpinoyLogger Logout button not found
